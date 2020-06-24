@@ -1,0 +1,362 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'nunito','sans-serif';
+}
+
+p{
+    font-family: 'nunito','sans-serif';
+}
+li{
+    font-family: 'nunito','sans-serif';
+}
+/*********going-back starts here**********/
+#going-back{
+    background-image: url('../images/bg.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #e8f4ff;
+    background-attachment: scroll;
+    overflow-y: hidden;
+    height:100vh
+}
+.card-container{
+    margin-bottom:5em
+}
+.card{
+  
+    overflow-x: hidden;
+    margin:2em auto 0em auto;
+    
+}
+.logo-container{
+    display:flex;
+    justify-content: flex-end;
+}
+#logo{
+    width:100%;
+    height:auto;
+    max-width:100px;
+    margin:30px 30px 10px 0px
+}
+.slide1{
+    margin:auto;
+    height:50vh
+}
+.slide2{
+ 
+    padding:20px 40px;
+    height:50vh
+}
+.slide3{
+    padding:20px 40px;
+    height:50vh
+}
+.slide4{
+    padding:20px 40px;
+    height:50vh
+}
+.image-container1,.image-container2,.image-container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.slide1 h5,.slide2 h5,.slide4 h5{
+    color: #135CB0
+}
+.image-container3{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.tab_img{
+    object-fit: contain;
+    object-position: center;
+    width:100%;
+    height:250px
+}
+#image1{
+    width:100%;
+    height:auto;
+    max-width:220px;
+    margin:30px
+}
+#image2{
+    width:100%;
+    height:auto;
+    max-width:200px;
+    margin:30px
+}
+#image3{
+    width:100%;
+    height:200px;
+    /* max-width:200px; */
+    margin:30px
+}
+#image4{
+    width:100%;
+    height:200px;
+    /* max-width:200px; */
+    margin:30px
+}
+
+* {box-sizing: border-box}
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  /* margin-top: -22px; */
+  margin:auto 0;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.text-container h3{
+    color:#135CB0
+}
+ul{
+    list-style:none
+}
+ul li::before {
+    content: "\2022";  
+    color: #135CB0;
+    font-size: 30px;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 2em; 
+    margin-left: -1em; 
+  }
+  ul li {
+      color:#135CB0;
+      padding:2px 
+  }
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+a:not([href]){
+    color:#135CB0
+}
+
+.active{
+  background-color: #717171;
+}
+@media(max-width:374px){
+    .image-container3{
+        display:flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        overflow: hidden;
+        height:auto;
+        overflow-x: hidden;
+        margin: 2em auto 2em auto;
+        background-color:transparent;
+        border:0px
+    }
+    
+    #image1{
+        width:100%;
+        height:auto;
+        max-width:150px;
+        margin:30px
+    }
+    #image2{
+        width:100%;
+        height:auto;
+        max-width:150px;
+        margin:30px
+    }
+    #image3{
+        width:100%;
+        height:200px;
+        max-width:150px;
+        margin:5px
+    }
+    #image4{
+        width:100%;
+        height:200px;
+        max-width:1500px;
+        margin:30px
+    }
+    .card-container{
+        margin-bottom:2em
+    }
+    
+   .slide1{
+       margin:2em 0em;
+       
+   }
+   .slide3{
+       padding:5px 10px;
+       height:60vh
+   }
+   #going-back{
+    background-image: url('../images/bg.svg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #e8f4ff;
+    background-attachment: scroll;
+    overflow-y: hidden;
+    /* height:100vh */
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    width: auto;
+    padding: 16px;
+    /* margin-top: -22px; */
+    margin:auto 0;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  #logo{
+    width:100%;
+    height:auto;
+    max-width:70px;
+    margin:15px 15px 10px 0px
+   }
+   ul li::before {
+    content: "\2022";  
+    color: #135CB0; 
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block; 
+    width: 0.8em; 
+    margin-left: -1em;
+  }
+}
+@media (min-width:375px) and (max-width:576px){
+    .card{
+        overflow: hidden;
+        height:auto;
+        margin:1em auto 3em auto !important;
+        background-color: transparent;
+        border:0px
+    }
+    .image-container3{
+        display:flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .slide4,.slide2,.slide1{
+        height:100vh
+    }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 20%;
+        width: auto;
+        padding: 16px;
+        /* margin-top: -22px; */
+        margin:auto 0;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      ul li::before {
+        content: "\2022";  
+        color: #135CB0; 
+        font-size: 25px;
+        font-weight: bold;
+        display: inline-block; 
+        width: 1em; 
+        margin-left: -1em;
+      }
+      #image1,#image2,#image3,#image4{
+          margin:15px 15px
+      }
+}
+@media (min-width: 577px) and (max-width: 764px){
+.slide1,.slide2,.slide3,.slide4{
+    height:70vh
+}
+}
+@media (min-width: 765px) and (max-width: 992px){
+    .slide1,.slide2,.slide3,.slide4{
+        height:70vh
+    }
+    .card{
+        overflow: hidden;
+        height:auto;
+        margin:1em auto 3em auto !important;
+        background-color: transparent;
+        border:0px
+    }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 20%;
+        width: auto;
+        padding: 16px;
+        /* margin-top: -22px; */
+        margin:auto 0;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+    
+}
+@media (min-width: 993px) and (max-width: 1100px){
+    .slide4,.slide2,.slide1,.slide3{
+        height:50vh;
+       padding:10em
+    }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        width: auto;
+        padding: 16px;
+        /* margin-top: -22px; */
+        margin:auto 0;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+    
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/*********going-back ends here**********/
