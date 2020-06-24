@@ -1,12 +1,27 @@
+.roww{
+    padding:0px;
+    margin:0px;
+  
+}
+.main-background{
+    position: relative;
+    padding-top:5%
+   
+}
 h1,h2,h3,h4,h5,h6{
     font-family: 'nunito','sans-serif';
+    line-height:1.3
 }
-
+h5{
+    font-size: 22px;
+}
 p{
     font-family: 'nunito','sans-serif';
+    line-height:1.6
 }
 li{
     font-family: 'nunito','sans-serif';
+    line-height:1
 }
 /*********going-back starts here**********/
 #going-back{
@@ -17,16 +32,29 @@ li{
     background-color: #e8f4ff;
     background-attachment: scroll;
     overflow-y: hidden;
-    height:100vh
+    height:100vh;
+   margin:auto
 }
 .card-container{
-    margin-bottom:5em
+    margin-bottom:8%
 }
 .card{
   
     overflow-x: hidden;
-    margin:2em auto 0em auto;
+    /* margin:2em auto 0em auto; */
     
+}
+.slider-container0{
+    width:700px;
+    margin:auto;
+     position:absolute; 
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+} 
+.slider-container0 h3{
+    line-height:1.6;
+    word-spacing:1px;
 }
 .logo-container{
     display:flex;
@@ -38,21 +66,28 @@ li{
     max-width:100px;
     margin:30px 30px 10px 0px
 }
+.slide0{
+    margin:auto;
+    height:50vh;
+    position:relative;
+}
 .slide1{
     margin:auto;
-    height:50vh
+    height:50vh;
+    position:relative;
+   
 }
 .slide2{
  
-    padding:20px 40px;
+    /* padding:20px 40px; */
     height:50vh
 }
 .slide3{
-    padding:20px 40px;
+    /* padding:20px 40px; */
     height:50vh
 }
 .slide4{
-    padding:20px 40px;
+    /* padding:20px 40px; */
     height:50vh
 }
 .image-container1,.image-container2,.image-container4{
@@ -106,33 +141,68 @@ li{
 img {vertical-align: middle;}
 
 /* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+
+.slider-container1,.slider-container2,.slider-container4{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%)
+}
+.slider-container3{
+    position:absolute;
+  top:55%;
+  left:50%;
+  transform:translate(-50%,-50%)
 }
 
 /* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  /* margin-top: -22px; */
-  margin:auto 0;
-  color: white;
-  font-weight: bold;
-  font-size: 25px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+.prev:hover,.next:hover{
+    color: #135CB0;
 }
+.prev{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left:1%;
+    width: auto;
+    padding: 5px;
+    /* margin-top: -22px; */
+    margin-right:20px;
+    padding-right:30px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+ .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right:1%;
+    width: auto;
+    padding: 5px;
+    /* margin-top: -22px; */
+    margin-left:10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
 .text-container h3{
     color:#135CB0
 }
 ul{
     list-style:none
+}
+ul .li-one::before{
+    width: 1.5em; 
+}
+ul .li-one{
+    font-size:18px
 }
 ul li::before {
     content: "\2022";  
@@ -140,7 +210,7 @@ ul li::before {
     font-size: 30px;
     font-weight: bold; 
     display: inline-block; 
-    width: 2em; 
+    width: 1em; 
     margin-left: -1em; 
   }
   ul li {
@@ -157,7 +227,9 @@ ul li::before {
 a:not([href]){
     color:#135CB0
 }
-
+a:not([href]):hover{
+    color:#135CB0
+}
 .active{
   background-color: #717171;
 }
@@ -206,11 +278,11 @@ a:not([href]){
     }
     
    .slide1{
-       margin:2em 0em;
+       /* margin:2em 0em; */
        
    }
    .slide3{
-       padding:5px 10px;
+       /* padding:5px 10px; */
        height:60vh
    }
    #going-back{
@@ -226,7 +298,7 @@ a:not([href]){
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 20%;
+    top: 50%;
     width: auto;
     padding: 16px;
     /* margin-top: -22px; */
@@ -253,6 +325,52 @@ a:not([href]){
     width: 0.8em; 
     margin-left: -1em;
   }
+  .slider-container2,.slider-container3,.slider-container4{
+    position:absolute;
+    top:35%;
+    left:50%;
+    transform:translate(-50%,-5%);
+    width:18em
+  }
+  .slider-container1{
+    position:absolute;
+    top:35%;
+    left:50%;
+    transform:translate(-50%,-30%);
+    width:18em
+  }
+  .prev{
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    left:1%;
+    width: auto;
+    padding: 5px;
+    /* margin-top: -22px; */
+    margin-right:20px;
+    padding-right:30px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+ .next {
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    width: auto;
+    padding: 5px;
+    /* margin-top: -22px; */
+    margin-left:10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
 }
 @media (min-width:375px) and (max-width:576px){
     .card{
@@ -262,6 +380,15 @@ a:not([href]){
         background-color: transparent;
         border:0px
     }
+    #logo{
+        width:100%;
+        height:auto;
+        max-width:60px;
+        /* margin:-5px 8px 15px 0px; */
+        position:absolute;
+        margin-left:15px;
+        margin-bottom:30px
+       }
     .image-container3{
         display:flex;
         flex-direction: column-reverse;
@@ -271,14 +398,48 @@ a:not([href]){
     .slide4,.slide2,.slide1{
         height:100vh
     }
-    .prev, .next {
+    .slide0{
+        height:80vh
+    }
+    .slide3{
+        height:120vh
+    }
+    .slider-container0 h3{
+        font-size:22px;
+        line-height:1.4
+    }
+    .slider-container0 h5{
+        font-size:18px;
+        line-height:1.4
+    }
+    .slider-container0 ul li{
+        font-size:16px
+    }
+    .prev{
         cursor: pointer;
-        position: absolute;
-        top: 20%;
+        position: fixed;
+        top: 50%;
+        left:1%;
         width: auto;
-        padding: 16px;
+        padding: 5px;
         /* margin-top: -22px; */
-        margin:auto 0;
+        margin-right:20px;
+        padding-right:30px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+     .next {
+        cursor: pointer;
+        position: fixed;
+        top: 50%;
+        width: auto;
+        padding: 5px;
+        /* margin-top: -22px; */
+        margin-left:10px;
         color: white;
         font-weight: bold;
         font-size: 18px;
@@ -298,6 +459,28 @@ a:not([href]){
       #image1,#image2,#image3,#image4{
           margin:15px 15px
       }
+      .slider-container2,.slider-container3,.slider-container4{
+        position:absolute;
+        top:35%;
+        left:50%;
+        transform:translate(-50%,-45%);
+        width:18em
+      }
+      .slider-container1{
+        position:absolute;
+        top:35%;
+        left:50%;
+        transform:translate(-50%,-25%);
+        width:18em
+      }
+      .slider-container0{
+        width:18em;
+        margin:auto;
+         position:absolute; 
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-45%)
+    } 
 }
 @media (min-width: 577px) and (max-width: 764px){
 .slide1,.slide2,.slide3,.slide4{
@@ -317,8 +500,8 @@ a:not([href]){
     }
     .prev, .next {
         cursor: pointer;
-        position: absolute;
-        top: 20%;
+        position: fixed;
+        top: 50%;
         width: auto;
         padding: 16px;
         /* margin-top: -22px; */
@@ -330,6 +513,14 @@ a:not([href]){
         border-radius: 0 3px 3px 0;
         user-select: none;
       }
+      .slider-container0{
+        width:500px;
+        margin:auto;
+         position:absolute; 
+        top:60%;
+        left:50%;
+        transform:translate(-50%,-50%)
+    } 
     
 }
 @media (min-width: 993px) and (max-width: 1100px){
@@ -340,7 +531,7 @@ a:not([href]){
     .prev, .next {
         cursor: pointer;
         position: absolute;
-        top: 40%;
+        top: 50%;
         width: auto;
         padding: 16px;
         /* margin-top: -22px; */
