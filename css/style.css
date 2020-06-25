@@ -319,7 +319,8 @@ ul li::before {
     width:100%;
     height:auto;
     max-width:40px;
-    margin:15px 15px 10px 0px
+    margin:2px
+    
    }
    ul li::before {
     content: "\2022";  
@@ -420,7 +421,7 @@ ul li::before {
         width:100%;
         height:auto;
         max-width:40px;
-        
+        margin:2px
        }
     .image-container3{
         display:flex;
