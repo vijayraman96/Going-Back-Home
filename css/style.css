@@ -293,11 +293,14 @@ ul li::before {
     
    .slide1{
        /* margin:2em 0em; */
-       
+       height:80vh
    }
    .slide3{
        /* padding:5px 10px; */
-       height:75vh
+       height:80vh
+   }
+   .slide4{
+    height:80vh
    }
    
 .prev, .next {
@@ -360,14 +363,14 @@ ul li::before {
   }
   .slide0{
     
-    min-height:80vh;
+    min-height:85vh;
     background-attachment:scroll;
     overflow:auto;
 
 }
   .slider-container0{
     position:absolute;
-    top:30%;
+    top:10%;
     left:50%; 
      transform:translate(-50%,0%);
     width:16em;
@@ -375,7 +378,7 @@ ul li::before {
   }
   .slider-container1{
     position:absolute;
-    top:80%;
+    top:60%;
     left:50%;
     transform:translate(-50%,-50%);
     width:18em
@@ -458,16 +461,16 @@ ul li::before {
         align-items: center;
     }
     .slide4,.slide2,.slide1{
-        height:100vh
+        height:110vh
     }
     .slide0{
-        min-height:80vh;
+        min-height:90vh;
         background-attachment:scroll;
         overflow-x:hidden;
         
     }
     .slide3{
-        height:100vh
+        height:110vh
     }
     .slider-container0 h3{
         font-size:28px;
@@ -529,7 +532,7 @@ ul li::before {
       }
       .slider-container2,.slider-container4{
         position:absolute;
-        top:50%;
+        top:48%;
         left:50%;
         transform:translate(-50%,-55%);
         width:18em
@@ -543,7 +546,7 @@ ul li::before {
       }
       .slider-container1{
         position:absolute;
-        top:53%;
+        top:50%;
         left:50%;
         transform:translate(-50%,-63%);
         width:18em
