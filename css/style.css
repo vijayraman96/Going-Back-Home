@@ -82,6 +82,7 @@ li{
     margin:auto;
     height:60vh;
     position:relative;
+    
    
 }
 .slide1{
@@ -759,6 +760,9 @@ ul li::before {
       }
       .sign{
         margin-left:0.5em
+    }
+    .slide0,.slide1,.slide2,.slide3,.slide4{
+        height:50vh
     }
     
 }
