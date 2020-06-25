@@ -21,7 +21,7 @@ p{
 }
 li{
     font-family: 'nunito','sans-serif';
-    line-height:1
+    line-height:1.6
 }
 /*********going-back starts here**********/
 #going-back{
@@ -224,16 +224,26 @@ ul li::before {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-a:not([href]){
+.fa-angle-left, .fa-angle-right{
+    font-size:50px;
     color:#135CB0
 }
-a:not([href]):hover{
+.fa-angle-left:hover, .fa-angle-right:hover{
+    font-size:50px;
     color:#135CB0
-}
-.active{
-  background-color: #717171;
 }
 @media(max-width:374px){
+    #going-back{
+        background-image: url('../images/bg.svg');
+        background-position: top top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #e8f4ff;
+        background-attachment: scroll;
+        overflow-y: hidden;
+        height:100vh;
+       margin:auto
+    }
     .image-container3{
         display:flex;
         flex-direction: column-reverse;
@@ -327,16 +337,16 @@ a:not([href]):hover{
   }
   .slider-container2,.slider-container3,.slider-container4{
     position:absolute;
-    top:35%;
+    top:50%;
     left:50%;
-    transform:translate(-50%,-5%);
+    transform:translate(-50%,-50%);
     width:18em
   }
   .slider-container1{
     position:absolute;
-    top:35%;
+    top:50%;
     left:50%;
-    transform:translate(-50%,-30%);
+    transform:translate(-50%,-50%);
     width:18em
   }
   .prev{
@@ -373,6 +383,21 @@ a:not([href]):hover{
   }
 }
 @media (min-width:375px) and (max-width:576px){
+    #going-back{
+        background-image: url('../images/bg.svg');
+        background-position: center bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #e8f4ff;
+        background-attachment: scroll;
+        overflow-y: hidden;
+        height:100vh;
+       margin:auto
+    }
+    .slide1 h5,.slide2 h5 ,.slide3 h5,.slide4 h5{
+        padding-top:2em;
+        line-height:2
+    }
     .card{
         overflow: hidden;
         height:auto;
@@ -399,7 +424,9 @@ a:not([href]):hover{
         height:100vh
     }
     .slide0{
-        height:80vh
+        min-height:120vh;
+        background-attachment:scroll;
+        overflow:auto
     }
     .slide3{
         height:120vh
@@ -418,7 +445,7 @@ a:not([href]):hover{
     .prev{
         cursor: pointer;
         position: fixed;
-        top: 50%;
+        top: 45%;
         left:1%;
         width: auto;
         padding: 5px;
@@ -435,7 +462,7 @@ a:not([href]):hover{
      .next {
         cursor: pointer;
         position: fixed;
-        top: 50%;
+        top: 45%;
         width: auto;
         padding: 5px;
         /* margin-top: -22px; */
@@ -459,16 +486,23 @@ a:not([href]):hover{
       #image1,#image2,#image3,#image4{
           margin:15px 15px
       }
-      .slider-container2,.slider-container3,.slider-container4{
+      .slider-container2,.slider-container4{
         position:absolute;
-        top:35%;
+        top:48%;
+        left:50%;
+        transform:translate(-50%,-45%);
+        width:18em
+      }
+      .slider-container3{
+        position:absolute;
+        top:45%;
         left:50%;
         transform:translate(-50%,-45%);
         width:18em
       }
       .slider-container1{
         position:absolute;
-        top:35%;
+        top:40%;
         left:50%;
         transform:translate(-50%,-25%);
         width:18em
