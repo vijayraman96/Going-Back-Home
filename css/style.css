@@ -23,6 +23,7 @@ li{
     font-family: 'nunito','sans-serif';
     line-height:1.6
 }
+
 /*********going-back starts here**********/
 #going-back{
     background-image: url('../images/bg.svg');
@@ -35,12 +36,19 @@ li{
     height:100vh;
    margin:auto
 }
+.sign{
+    margin-left:0.5em
+}
 .card-container{
     margin-bottom:8%
 }
 .card{
   
     overflow-x: hidden;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15) !important;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: 0.25rem;
     /* margin:2em auto 0em auto; */
     
 }
@@ -149,7 +157,7 @@ img {vertical-align: middle;}
 
 .slider-container1,.slider-container2,.slider-container4{
   position:absolute;
-  top:60%;
+  top:50%;
   left:50%;
   transform:translate(-50%,-50%)
 }
@@ -251,6 +259,9 @@ ul li::before {
         min-height:100vh;
        margin:auto
     }
+    .sign{
+        text-align: center;
+    }
     .main-background{
         position: relative;
         padding-top:0%
@@ -307,9 +318,9 @@ ul li::before {
    }
    .slide3{
        /* padding:5px 10px; */
-      min-height:100vh;
-       /* background-attachment:scroll;
-       overflow-x: auto; */
+      height:100vh;
+       background-attachment:scroll;
+       overflow:hidden;
    }
    .slide4{
     height:90vh
@@ -463,6 +474,9 @@ ul li::before {
         overflow: hidden;
         min-height:100vh;
        margin:auto
+    }
+    .sign{
+        text-align: center;
     }
     .main-background{
         position: relative;
@@ -631,6 +645,9 @@ ul li::before {
     padding-top:2em;
     line-height:2
 }
+.sign{
+    margin-left:1em
+}
 }
 @media (min-width: 765px) and (max-width: 992px){
     #going-back{
@@ -715,6 +732,9 @@ ul li::before {
         transform:translate(-50%,-15%);
         padding:5px
     } 
+    .sign{
+        margin-left:0.5em
+    }
     
 }
 @media (min-width: 993px) and (max-width: 1100px){
@@ -737,6 +757,9 @@ ul li::before {
         border-radius: 0 3px 3px 0;
         user-select: none;
       }
+      .sign{
+        margin-left:0.5em
+    }
     
 }
 /* On smaller screens, decrease text size */
