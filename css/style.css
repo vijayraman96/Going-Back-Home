@@ -297,7 +297,9 @@ ul li::before {
    }
    .slide3{
        /* padding:5px 10px; */
-       height:80vh
+       height:100vh;
+       background-attachment:scroll;
+       overflow-x: auto;
    }
    .slide4{
     height:80vh
@@ -349,7 +351,7 @@ ul li::before {
   }
   .slider-container3{
     position:absolute;
-    top:60%;
+    top:55%;
     left:50%;
     transform:translate(-50%,-50%);
     width:18em
