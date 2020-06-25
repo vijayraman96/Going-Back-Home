@@ -324,9 +324,9 @@ ul li::before {
     max-width:40px;
     margin:2px;
     padding-right:0.3em;
-    position: absolute;
+    position: fixed;
     top:2%;
-    right:-4%;
+    right:3%;
     z-index:1
 
     
@@ -449,9 +449,9 @@ ul li::before {
         max-width:40px;
         margin:2px ;
         padding-right:0.3em;
-        position: absolute;
+        position: fixed;
         top:2%;
-        right:-9%;
+        right:3%;
         z-index:1
        }
     .image-container3{
