@@ -321,7 +321,7 @@ ul li::before {
   #logo{
     /* width:100%; */
     height:auto;
-    max-width:40px;
+    max-width:50px;
     margin:2px;
     padding-right:0.3em;
     position: fixed;
@@ -446,7 +446,7 @@ ul li::before {
     #logo{
         /* width:100%; */
         height:auto;
-        max-width:40px;
+        max-width:60px;
         margin:2px ;
         padding-right:0.3em;
         position: fixed;
@@ -470,7 +470,9 @@ ul li::before {
         
     }
     .slide3{
-        height:120vh
+        height:100vh;
+        background-attachment:scroll;
+        overflow-x:hidden;
     }
     .slider-container0 h3{
         font-size:28px;
@@ -539,7 +541,7 @@ ul li::before {
       }
       .slider-container3{
         position:absolute;
-        top:55%;
+        top:60%;
         left:50%;
         transform:translate(-50%,-45%);
         width:18em
