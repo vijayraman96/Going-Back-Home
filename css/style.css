@@ -319,7 +319,9 @@ ul li::before {
     /* width:100%; */
     height:auto;
     max-width:40px;
-    margin:2px
+    margin:2px;
+    padding-right:0.3em
+
     
    }
    ul li::before {
@@ -421,7 +423,8 @@ ul li::before {
         /* width:100%; */
         height:auto;
         max-width:40px;
-        margin:2px
+        margin:2px ;
+        padding-right:0.3em
        }
     .image-container3{
         display:flex;
