@@ -55,6 +55,10 @@ li{
 .slider-container0 h3{
     line-height:1.6;
     word-spacing:1px;
+    text-align: justify;
+}
+.slider-container0 h5{
+    text-align: justify;
 }
 .logo-container{
     display:flex;
@@ -145,7 +149,7 @@ img {vertical-align: middle;}
 
 .slider-container1,.slider-container2,.slider-container4{
   position:absolute;
-  top:50%;
+  top:60%;
   left:50%;
   transform:translate(-50%,-50%)
 }
@@ -296,20 +300,22 @@ ul li::before {
     }
     
    .slide1{
-       /* margin:2em 0em; */
        height:80vh
+   }
+   .slide2{
+       height:100vh
    }
    .slide3{
        /* padding:5px 10px; */
       min-height:100vh;
-       background-attachment:scroll;
-       overflow-x: auto;
+       /* background-attachment:scroll;
+       overflow-x: auto; */
    }
    .slide4{
-    height:80vh
+    height:90vh
    }
    
-.prev, .next {
+  .prev, .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -327,7 +333,7 @@ ul li::before {
   #logo{
     /* width:100%; */
     height:auto;
-    max-width:50px;
+    max-width:60px;
     margin:2px;
     padding-right:0.3em;
     position: fixed;
@@ -343,12 +349,12 @@ ul li::before {
     font-size: 14px;
     font-weight: bold;
     display: inline-block; 
-    width: 0.8em; 
+    width: 1.5em; 
     margin-left: -1em;
   }
   .slider-container2{
     position:absolute;
-    top:80%;
+    top:55%;
     left:50%;
     transform:translate(-50%,-50%);
     width:18em
@@ -386,7 +392,7 @@ ul li::before {
     position:absolute;
     top:60%;
     left:50%;
-    transform:translate(-50%,-50%);
+    transform:translate(-50%,-40%);
     width:18em
   }
   .prev{
@@ -421,6 +427,29 @@ ul li::before {
     border-radius: 0 3px 3px 0;
     user-select: none;
   }
+  ul li::before {
+    content: "\2022";
+    color: #0099ff;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.5em;
+    margin-left: -1em;
+}
+.slider-container0 h3{
+    font-size:24px;
+    line-height:1.6;
+    text-align: justify;
+}
+.slider-container0 h5{
+    font-size:20px;
+    text-align: justify;
+    /* line-height:1.5 */
+}
+.slider-container0 ul li{
+    font-size:16px;
+    text-align: justify;
+}
 }
 @media (min-width:375px) and (max-width:576px){
     #going-back{
@@ -457,7 +486,7 @@ ul li::before {
     #logo{
         /* width:100%; */
         height:auto;
-        max-width:60px;
+        max-width:70px;
         margin:2px ;
         padding-right:0.3em;
         position: fixed;
@@ -488,15 +517,18 @@ ul li::before {
         margin:10px
     }
     .slider-container0 h3{
-        font-size:28px;
-        line-height:1.6
+        font-size:24px;
+        line-height:1.6;
+        text-align: justify;
     }
     .slider-container0 h5{
         font-size:20px;
+        text-align:justify
         /* line-height:1.5 */
     }
     .slider-container0 ul li{
-        font-size:16px
+        font-size:16px;
+        text-align: justify;
     }
     .prev{
         cursor: pointer;
@@ -547,7 +579,7 @@ ul li::before {
       }
       .slider-container2,.slider-container4{
         position:absolute;
-        top:48%;
+        top:55%;
         left:50%;
         transform:translate(-50%,-55%);
         width:18em
@@ -561,7 +593,7 @@ ul li::before {
       }
       .slider-container1{
         position:absolute;
-        top:50%;
+        top:55%;
         left:50%;
         transform:translate(-50%,-63%);
         width:18em
@@ -658,7 +690,7 @@ ul li::before {
         top:55%;
         left:50%;
         transform:translate(-50%,-30%);
-        width:18em
+        width:25em
       }
       .slider-container3{
         position:absolute;
@@ -671,8 +703,8 @@ ul li::before {
         position:absolute;
         top:50%;
         left:50%;
-        transform:translate(-50%,-40%);
-        width:18em
+        transform:translate(-50%,-30%);
+        width:25em
       }
       .slider-container0{
         width:33em;
