@@ -326,7 +326,7 @@ ul li::before {
        /* padding:5px 10px; */
       height:100vh;
        background-attachment:scroll;
-       overflow:hidden;
+       overflow:scroll;
    }
    .slide4{
     height:90vh
@@ -378,9 +378,10 @@ ul li::before {
   }
   .slider-container3{
     position:absolute;
-    top:50%;
+    /* top:50%;
     left:50%;
-    transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%); */
+    margin-top:50%;
     width:18em
   }
   .slider-container4{
@@ -522,6 +523,7 @@ ul li::before {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        margin-top:10em
     }
     .slide4,.slide2,.slide1{
         height:100vh;
