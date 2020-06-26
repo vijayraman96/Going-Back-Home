@@ -488,6 +488,9 @@ ul li::before {
     font-weight:400;
     font-size:20px
 }
+.text-container h3{
+    font-size:28px
+}
 }
 @media (min-width:375px) and (max-width:576px){
     #going-back{
@@ -670,6 +673,9 @@ ul li::before {
         transform:translate(-50%,-15%);
         padding:5px
     } 
+    .text-container h3{
+        font-size:30px
+    }
     .slide1 h5,.slide2 h5,.slide4 h5,.slide2 h5,.slide1 h5{
         color: #135CB0;
         font-weight:400;
