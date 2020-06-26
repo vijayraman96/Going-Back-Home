@@ -12,8 +12,13 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'nunito','sans-serif';
     line-height:1.8
 }
+h3{
+    font-size: 40px;
+    font-weight:800
+}
 h5{
-    font-size: 22px;
+    font-size: 28px;
+    font-weight: 300;
 }
 p{
     font-family: 'nunito','sans-serif';
@@ -63,11 +68,11 @@ li{
 .slider-container0 h3{
     line-height:1.6;
     word-spacing:1px;
-    text-align: justify;
+    /* text-align: justify; */
 }
-.slider-container0 h5{
+/* .slider-container0 h5{
     text-align: justify;
-}
+} */
 .logo-container{
     display:flex;
     justify-content: flex-end;
@@ -80,37 +85,38 @@ li{
 }
 .slide0{
     margin:auto;
-    height:60vh;
+    height:65vh;
     position:relative;
     
    
 }
 .slide1{
     margin:auto;
-    height:60vh;
+    height:65vh;
     /* position:relative; */
    
 }
 .slide2{
  
     /* padding:20px 40px; */
-    height:60vh
+    height:65vh
 }
 .slide3{
     /* padding:20px 40px; */
-    height:60vh
+    height:65vh
 }
 .slide4{
     /* padding:20px 40px; */
-    height:60vh
+    height:65vh
 }
 .image-container1,.image-container2,.image-container4{
     display: flex;
     justify-content: center;
     align-items: center;
 } 
-.slide1 h5,.slide2 h5,.slide4 h5{
-    color: #135CB0
+.slide1 h5,.slide2 h5,.slide4 h5,.slide2 h5,.slide1 h5{
+    color: #135CB0;
+    font-weight:600
 }
 .image-container3{
     display:flex;
@@ -166,7 +172,8 @@ img {vertical-align: middle;}
     position:absolute;
   top:55%;
   left:50%;
-  transform:translate(-50%,-50%)
+  transform:translate(-50%,-50%);
+  width:40em
 }
 
 /* Next & previous buttons */
@@ -230,7 +237,8 @@ ul li::before {
   }
   ul li {
       color:#135CB0;
-      padding:2px 
+      padding:2px ;
+      font-size:20px
   }
 /* Position the "next button" to the right */
 .next {
@@ -417,7 +425,7 @@ ul li::before {
     cursor: pointer;
     position: fixed;
     top: 50%;
-    left:1%;
+    left:2%;
     width: auto;
     padding: 5px;
     /* margin-top: -22px; */
@@ -437,7 +445,7 @@ ul li::before {
     width: auto;
     padding: 5px;
     /* margin-top: -22px; */
-    margin-left:10px;
+    margin-right:10px;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -445,6 +453,10 @@ ul li::before {
     border-radius: 0 3px 3px 0;
     user-select: none;
   }
+  ul li{
+      line-height: 1.4;
+  }
+ 
   ul li::before {
     content: "\2022";
     color: #0099ff;
@@ -457,16 +469,18 @@ ul li::before {
 .slider-container0 h3{
     font-size:24px;
     line-height:1.6;
-    text-align: justify;
+    /* text-align: justify; */
+    font-weight: bold;
 }
 .slider-container0 h5{
     font-size:20px;
-    text-align: justify;
+    /* text-align: justify; */
     /* line-height:1.5 */
 }
 .slider-container0 ul li{
     font-size:16px;
     text-align: justify;
+    line-height:1.4
 }
 }
 @media (min-width:375px) and (max-width:576px){
@@ -542,14 +556,26 @@ ul li::before {
         margin:10px
     }
     .slider-container0 h3{
-        font-size:24px;
+        font-size:30px;
         line-height:1.6;
-        text-align: justify;
+        /* text-align: justify; */
     }
     .slider-container0 h5{
-        font-size:20px;
-        text-align:justify
+        font-size:24px;
+        /* text-align:justify */
         /* line-height:1.5 */
+    }
+    ul li{
+        line-height: 1.4;
+        font-size: 18px;
+    }
+   h3{
+       font-size:30px;
+       font-weight:700
+   }
+    h5{
+        
+        line-height: 1.8;
     }
     .slider-container0 ul li{
         font-size:16px;
@@ -559,7 +585,7 @@ ul li::before {
         cursor: pointer;
         position: fixed;
         top: 43%;
-        left:1%;
+        left:2%;
         width: auto;
         padding: 5px;
         /* margin-top: -22px; */
@@ -579,7 +605,7 @@ ul li::before {
         width: auto;
         padding: 5px;
         /* margin-top: -22px; */
-        margin-left:10px;
+        margin-right:10px;
         color: white;
         font-weight: bold;
         font-size: 18px;
@@ -590,6 +616,11 @@ ul li::before {
       .text-container{
           padding-bottom:30px
       }
+      .slider-container0 ul li{
+        font-size:18px;
+        text-align: justify;
+        line-height:1.4
+    }
       ul li::before {
         content: "\2022";  
         color: #0099ff; 
@@ -633,6 +664,11 @@ ul li::before {
         transform:translate(-50%,-15%);
         padding:5px
     } 
+    .slide1 h5,.slide2 h5,.slide4 h5,.slide2 h5,.slide1 h5{
+        color: #135CB0;
+        font-weight:400;
+        font-size:22px
+    }
     ul .li-one::before {
         width: 1em;
     }
@@ -767,7 +803,15 @@ ul li::before {
      
         border-radius: 0rem;
     }
-    
+    h3{
+        font-size:32px;
+    }
+    h5{
+        font-size:26px
+    }
+    ul {
+        font-size:20px
+    }
 }
 @media (min-width: 993px) and (max-width: 1100px){
     .slide4,.slide2,.slide1,.slide3{
@@ -795,7 +839,15 @@ ul li::before {
     .slide0,.slide1,.slide2,.slide3,.slide4{
         height:50vh
     }
-    
+    h3{
+        font-size:32px;
+    }
+    h5{
+        font-size:26px
+    }
+    li{
+        font-size:20px
+    }
 }
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
