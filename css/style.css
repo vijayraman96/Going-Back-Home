@@ -455,6 +455,7 @@ ul li::before {
   }
   ul li{
       line-height: 1.4;
+      font-size:18px
   }
  
   ul li::before {
@@ -467,7 +468,7 @@ ul li::before {
     margin-left: -1em;
 }
 .slider-container0 h3{
-    font-size:24px;
+    font-size:26px;
     line-height:1.6;
     /* text-align: justify; */
     font-weight: bold;
@@ -481,6 +482,11 @@ ul li::before {
     font-size:16px;
     text-align: justify;
     line-height:1.4
+}
+.slide1 h5,.slide2 h5,.slide4 h5,.slide2 h5,.slide1 h5{
+    color: #135CB0;
+    font-weight:400;
+    font-size:20px
 }
 }
 @media (min-width:375px) and (max-width:576px){
