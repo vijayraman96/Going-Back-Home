@@ -115,7 +115,7 @@ li{
     align-items: center;
 } 
 .slide1 h5,.slide2 h5,.slide4 h5,.slide2 h5,.slide1 h5{
-    color: #135CB0;
+    color: #000000;
     font-weight:600
 }
 .image-container3{
@@ -236,9 +236,10 @@ ul li::before {
     margin-left: -1em; 
   }
   ul li {
-      color:#135CB0;
+      color:#000000;
       padding:2px ;
-      font-size:20px
+      font-size:20px;
+      font-weight: 500;
   }
 /* Position the "next button" to the right */
 .next {
@@ -485,8 +486,8 @@ ul li::before {
     line-height:1.4
 }
 .slide1 h5,.slide2 h5,.slide4 h5,.slide2 h5,.slide1 h5{
-    color: #135CB0;
-    font-weight:400;
+    color: #000000;
+    font-weight:600;
     font-size:20px
 }
 .text-container h3{
@@ -678,8 +679,8 @@ ul li::before {
         font-size:30px
     }
     .slide1 h5,.slide2 h5,.slide4 h5,.slide2 h5,.slide1 h5{
-        color: #135CB0;
-        font-weight:400;
+        color: #000000;
+        font-weight:600;
         font-size:22px
     }
     ul .li-one::before {
@@ -704,7 +705,9 @@ ul li::before {
 }
 .slide1 h5,.slide2 h5 ,.slide3 h5,.slide4 h5{
     padding-top:2em;
-    line-height:2
+    line-height:2;
+    color:#000000;
+    font-weight: 500;
 }
 .sign{
     margin-left:1em
@@ -771,7 +774,8 @@ ul li::before {
     }
     .slide1 h5,.slide2 h5 ,.slide3 h5,.slide4 h5{
         padding-top:1em;
-        line-height:2
+        line-height:2;
+        color:#000000
     }
     .slider-container2,.slider-container4{
         position:absolute;
@@ -795,7 +799,7 @@ ul li::before {
         width:25em
       }
       .slider-container0{
-        width:33em;
+        width:35em;
         margin:auto;
          position:absolute; 
         top:15%;
