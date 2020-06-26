@@ -377,7 +377,7 @@ ul li::before {
     width:18em
   }
   .slider-container3{
-    position:static;
+    position:relative;
     /* top:50%;
     left:50%;
     transform:translate(-50%,-50%); */
@@ -610,7 +610,7 @@ ul li::before {
         width:18em
       }
       .slider-container3{
-        position:absolute;
+        position:relative;
         /* top:60%;
         left:50%;
         transform:translate(-50%,-45%); */
