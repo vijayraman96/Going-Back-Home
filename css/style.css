@@ -260,6 +260,7 @@ ul li::before {
         min-height:100vh;
        margin:auto
     }
+  
     .sign{
         text-align: center;
     }
@@ -280,7 +281,11 @@ ul li::before {
         overflow-x: hidden;
         margin: 2em auto 2em auto;
         background-color:transparent;
-        border:0px
+        border:0px;
+       
+        box-shadow: 0 0 0 rgba(0,0,0,0) !important;
+     
+        border-radius: 0rem;
     }
     
     #image1{
@@ -493,7 +498,10 @@ ul li::before {
         height:auto;
         margin:1em auto 3em auto !important;
         background-color: transparent;
-        border:0px
+        border:0px;
+        box-shadow: 0 0 0 rgba(0,0,0,0) !important;
+     
+        border-radius: 0rem;
     }
     .logo-container{
         position:relative
@@ -649,6 +657,16 @@ ul li::before {
 .sign{
     margin-left:1em
 }
+.card{
+    overflow: hidden;
+    height:auto;
+    margin:1em auto 3em auto !important;
+    background-color: transparent;
+    border:0px;
+    box-shadow: 0 0 0 rgba(0,0,0,0) !important;
+ 
+    border-radius: 0rem;
+}
 }
 @media (min-width: 765px) and (max-width: 992px){
     #going-back{
@@ -735,6 +753,16 @@ ul li::before {
     } 
     .sign{
         margin-left:0.5em
+    }
+    .card{
+        overflow: hidden;
+        height:auto;
+        margin:1em auto 3em auto !important;
+        background-color: transparent;
+        border:0px;
+        box-shadow: 0 0 0 rgba(0,0,0,0) !important;
+     
+        border-radius: 0rem;
     }
     
 }
