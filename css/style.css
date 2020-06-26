@@ -538,7 +538,7 @@ ul li::before {
     .slide3{
         height:100vh;
         background-attachment:scroll;
-        overflow-x:hidden;
+        overflow-x:scroll;
         margin:10px
     }
     .slider-container0 h3{
@@ -611,9 +611,10 @@ ul li::before {
       }
       .slider-container3{
         position:absolute;
-        top:60%;
+        /* top:60%;
         left:50%;
-        transform:translate(-50%,-45%);
+        transform:translate(-50%,-45%); */
+        margin-top:50%;
         width:18em
       }
       .slider-container1{
