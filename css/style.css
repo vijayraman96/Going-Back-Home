@@ -6,7 +6,7 @@
 
 .main-background{
     position: relative;
-    padding-top:5%
+    /* padding-top:5% */
    
 }
 h1,h2,h3,h4,h5,h6{
@@ -14,11 +14,11 @@ h1,h2,h3,h4,h5,h6{
     line-height:1.8
 }
 h3{
-    font-size: 40px;
+    font-size: 34px;
     font-weight:800
 }
 h5{
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 300;
 }
 p{
@@ -32,22 +32,20 @@ li{
 
 /*********going-back starts here**********/
 #going-back{
-    background-image: url('../images/bg.svg');
-    background-position: center;
+    background-image: url('../images/bg.jpg');
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #e8f4ff;
     background-attachment: scroll;
     overflow-y: hidden;
-    height:100vh;
+   min-height:100vh;
    margin:auto
 }
 .sign{
     margin-left:0.5em
 }
-.card-container{
-    margin-bottom:8%
-}
+
 .card{
   
     overflow-x: hidden;
@@ -55,12 +53,21 @@ li{
     box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15) !important;
     border: 1px solid rgba(0,0,0,0.125);
     border-radius: 0.25rem;
+    margin-top: 5%;
+    margin-bottom:5%;
+  
+    
     /* margin:2em auto 0em auto; */
     
 }
+.slideshow-container{
+    min-height:75vh;
+    background-attachment: scroll;
+    overflow: hidden;
+}
 .slider-container0{
-    width:700px;
-    margin:auto;
+    width:65%;
+    margin:3% 3%;
      position:absolute; 
     top:50%;
     left:50%;
@@ -86,29 +93,29 @@ li{
 }
 .slide0{
     margin:auto;
-    height:65vh;
-    position:relative;
+    /* height:65vh;
+    position:relative; */
     
    
 }
 .slide1{
-    margin:auto;
-    height:65vh;
+    /* margin:auto;
+    height:65vh; */
     /* position:relative; */
    
 }
 .slide2{
  
     /* padding:20px 40px; */
-    height:65vh
+    /* height:65vh */
 }
 .slide3{
     /* padding:20px 40px; */
-    height:65vh
+    /* height:65vh */
 }
 .slide4{
     /* padding:20px 40px; */
-    height:65vh
+    /* height:65vh */
 }
 .image-container1,.image-container2,.image-container4{
     display: flex;
@@ -163,18 +170,24 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 
-.slider-container1,.slider-container2,.slider-container4{
+.slider-container1,.slider-container2{
   position:absolute;
-  top:60%;
+  top:55%;
   left:50%;
   transform:translate(-50%,-50%)
 }
+.slider-container4{
+    position:absolute;
+    top:55%;
+    left:50%;
+    transform:translate(-50%,-50%)
+  }
 .slider-container3{
     position:absolute;
-  top:55%;
+  top:52%;
   left:50%;
   transform:translate(-50%,-50%);
-  width:40em
+  width:70%
 }
 
 /* Next & previous buttons */
@@ -184,8 +197,8 @@ img {vertical-align: middle;}
 .prev{
     cursor: pointer;
     position: absolute;
-    top: 50%;
-    left:1%;
+    top: 47%;
+    left:10%;
     width: auto;
     padding: 5px;
     /* margin-top: -22px; */
@@ -201,8 +214,8 @@ img {vertical-align: middle;}
  .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
-    right:1%;
+    top: 47%;
+    right:10%;
     width: auto;
     padding: 5px;
     /* margin-top: -22px; */
@@ -218,14 +231,18 @@ img {vertical-align: middle;}
     color:#135CB0
 }
 ul{
-    list-style:none
+    list-style:none;
+    
+}
+.ul-one{
+    margin-left:5%
 }
 ul .li-one::before{
     width: 1em; 
     color:#0099ff
 }
 ul .li-one{
-    font-size:22px
+    font-size:20px
 }
 ul li::before {
     content: "\2022";  
@@ -238,15 +255,12 @@ ul li::before {
   }
   ul li {
       color:#000000;
-      padding:2px ;
+      /* padding:1px ; */
       font-size:20px;
       font-weight: 500;
   }
 /* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
+
 
 /* On hover, add a black background color with a little bit see-through */
 .fa-angle-left, .fa-angle-right{
@@ -326,21 +340,14 @@ ul li::before {
         margin-bottom:2em
     }
     
-   .slide1{
-       height:80vh
-   }
-   .slide2{
-       height:100vh
-   }
+
    .slide3{
        /* padding:5px 10px; */
       height:100vh;
        background-attachment:scroll;
        overflow:scroll;
    }
-   .slide4{
-    height:90vh
-   }
+ 
    
   .prev, .next {
     cursor: pointer;
@@ -376,12 +383,17 @@ ul li::before {
     font-size: 14px;
     font-weight: bold;
     display: inline-block; 
-    width: 1.5em; 
+    width: 1em; 
     margin-left: -1em;
   }
+  .slideshow-container{
+    min-height:75vh;
+    background-attachment: fixed;
+    overflow:auto;
+}
   .slider-container2{
     position:absolute;
-    top:50%;
+    top:60%;
     left:50%;
     transform:translate(-50%,-50%);
     width:18em
@@ -392,26 +404,26 @@ ul li::before {
     left:50%;
     transform:translate(-50%,-50%); */
     margin-top:35%;
-    width:18em;
+    width:17.4em;
     padding-bottom:2em
   }
   .slider-container4{
     position:absolute;
-    top:55%;
+    top:58%;
     left:50%;
     transform:translate(-50%,-50%);
     width:18em
   }
   .slide0{
     
-    min-height:85vh;
+    min-height:172vh;
     background-attachment:scroll;
-    overflow:auto;
+    overflow:scroll;
 
 }
   .slider-container0{
     position:absolute;
-    top:10%;
+    top:5%;
     left:50%; 
      transform:translate(-50%,0%);
     width:16em;
@@ -419,15 +431,21 @@ ul li::before {
   }
   .slider-container1{
     position:absolute;
-    top:55%;
+    top:60%;
     left:50%;
-    transform:translate(-50%,-40%);
+    transform:translate(-50%,-50%);
     width:18em
   }
+  .slide4,.slide2,.slide1{
+    height:75vh;
+     margin:10px;
+     background-attachment: fixed;
+     overflow:auto !important;
+ }
   .prev{
     cursor: pointer;
     position: fixed;
-    top: 50%;
+    top: 45%;
     left:2%;
     width: auto;
     padding: 5px;
@@ -444,7 +462,8 @@ ul li::before {
  .next {
     cursor: pointer;
     position: fixed;
-    top: 50%;
+    top: 45%;
+    right:0.5%;
     width: auto;
     padding: 5px;
     /* margin-top: -22px; */
@@ -461,13 +480,13 @@ ul li::before {
       font-size:18px
   }
  
-  ul li::before {
+  ul .li-one::before {
     content: "\2022";
     color: #0099ff;
     font-size: 25px;
     font-weight: bold;
     display: inline-block;
-    width: 1.5em;
+    width: 1em;
     margin-left: -1em;
 }
 .slider-container0 h3{
@@ -491,16 +510,31 @@ ul li::before {
 .slide1 h5,.slide2 h5,.slide4 h5,.slide2 h5,.slide1 h5{
     color: #000000;
     font-weight:600;
-    font-size:20px
+    font-size:20px;
+    margin:0% 6%
+}
+.text-container{
+    padding-bottom:30px;
+    margin:0% 6%
 }
 .text-container h3{
     font-size:28px
+}
+.ul-two{
+    margin:0% 4% 0% 1%;
+    padding-inline-start:20px;
+    
+}
+.li-two{
+    padding:2px 5px;
+    margin-left:5%
+    /* text-align: justify; */
 }
 }
 @media (min-width:375px) and (max-width:576px){
     #going-back{
         position: relative;
-        background-image: url('../images/Phone_BG.svg');
+        background-image: url('../images/Phone_BG.jpg');
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -551,14 +585,21 @@ ul li::before {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        margin-top:10em
+        /* margin-top:10em */
+    }
+    .slideshow-container{
+        min-height:90vh;
+        background-attachment: fixed;
+        /* overflow:fixed; */
     }
     .slide4,.slide2,.slide1{
-        height:100vh;
-        margin:10px
+       height:80vh;
+        margin:10px;
+        background-attachment: fixed;
+        overflow: auto;
     }
     .slide0{
-        min-height:90vh;
+        min-height:155vh;
         background-attachment:scroll;
         overflow-x:hidden;
         margin:10px
@@ -604,8 +645,8 @@ ul li::before {
         width: auto;
         padding: 5px;
         /* margin-top: -22px; */
-        margin-right:20px;
-        padding-right:30px;
+        /* margin-right:20px;
+        padding-right:30px; */
         color: white;
         font-weight: bold;
         font-size: 18px;
@@ -617,10 +658,11 @@ ul li::before {
         cursor: pointer;
         position: fixed;
         top: 43%;
+        right:1%;
         width: auto;
         padding: 5px;
         /* margin-top: -22px; */
-        margin-right:10px;
+        /* margin-right:10px; */
         color: white;
         font-weight: bold;
         font-size: 18px;
@@ -629,13 +671,21 @@ ul li::before {
         user-select: none;
       }
       .text-container{
-          padding-bottom:30px
+          padding-bottom:30px;
+          margin:0% 3%
       }
       .slider-container0 ul li{
         font-size:18px;
         /* text-align: justify; */
         line-height:1.4;
         margin-right:2em
+    }
+    .ul-two{
+        margin:0% 4% 0% 1%
+    }
+    .li-two{
+        padding:2px 5px;
+        /* text-align: justify; */
     }
       ul li::before {
         content: "\2022";  
@@ -651,31 +701,31 @@ ul li::before {
       }
       .slider-container2,.slider-container4{
         position:absolute;
-        top:55%;
+        top:60%;
         left:50%;
-        transform:translate(-50%,-55%);
+        transform:translate(-50%,-50%);
         width:18em
       }
       .slider-container3{
         position:relative;
-        /* top:60%;
+        top:60%;
         left:50%;
-        transform:translate(-50%,-45%); */
-        margin-top:50%;
+        transform:translate(-50%,-50%);
+        /* margin-top:50%; */
         width:18em
       }
       .slider-container1{
         position:absolute;
-        top:55%;
+        top:56%;
         left:50%;
-        transform:translate(-50%,-63%);
+        transform:translate(-50%,-50%);
         width:18em
       }
       .slider-container0{
-        width:19em;
+        width:82%;
         margin:auto;
          position:absolute; 
-        top:30%;
+        top:23%;
         left:50%;
         transform:translate(-50%,-15%);
         padding:5px
@@ -686,7 +736,8 @@ ul li::before {
     .slide1 h5,.slide2 h5,.slide4 h5,.slide2 h5,.slide1 h5{
         color: #000000;
         font-weight:600;
-        font-size:22px
+        font-size:22px;
+        margin:0% 3%
     }
     ul .li-one::before {
         width: 1em;
@@ -698,7 +749,7 @@ ul li::before {
 }
 #going-back{
     position: relative;
-    background-image: url('../images/Phone_BG.svg');
+    background-image: url('../images/Phone_BG.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -731,7 +782,7 @@ ul li::before {
 @media (min-width: 765px) and (max-width: 992px){
     #going-back{
         position: relative;
-        background-image: url('../images/Phone_BG.svg');
+        background-image: url('../images/Phone_BG.jpg');
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -741,9 +792,7 @@ ul li::before {
         min-height:100vh;
        margin:auto
     }
-    .slide1,.slide2,.slide3,.slide4,.slide0{
-        height:70vh
-    }
+  
     .card{
         overflow: hidden;
         height:auto;
@@ -751,14 +800,17 @@ ul li::before {
         background-color: transparent;
         border:0px
     }
-    .prev, .next {
+   
+    .prev{
         cursor: pointer;
-        position: fixed;
+        position: absolute;
         top: 50%;
+        left:5%;
         width: auto;
-        padding: 16px;
+        padding: 5px;
         /* margin-top: -22px; */
-        margin:auto 0;
+        margin-right:20px;
+        padding-right:30px;
         color: white;
         font-weight: bold;
         font-size: 18px;
@@ -766,14 +818,23 @@ ul li::before {
         border-radius: 0 3px 3px 0;
         user-select: none;
       }
-      .slider-container0{
-        width:500px;
-        margin:auto;
-         position:absolute; 
-        top:60%;
-        left:50%;
-        transform:translate(-50%,-50%)
-    } 
+     .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        right:5%;
+        width: auto;
+        padding: 5px;
+        /* margin-top: -22px; */
+        margin-left:10px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+    
     .slider-container3{
         width:30em
     }
@@ -782,9 +843,16 @@ ul li::before {
         line-height:2;
         color:#000000
     }
-    .slider-container2,.slider-container4{
+    .slider-container2{
         position:absolute;
         top:52%;
+        left:50%;
+        transform:translate(-50%,-30%);
+        width:25em
+      }
+      .slider-container4{
+        position:absolute;
+        top:50%;
         left:50%;
         transform:translate(-50%,-30%);
         width:25em
@@ -794,7 +862,7 @@ ul li::before {
         top:50%;
         left:50%;
         transform:translate(-50%,-40%);
-        width:30em
+        width:70%
       }
       .slider-container1{
         position:absolute;
@@ -804,10 +872,10 @@ ul li::before {
         width:25em
       }
       .slider-container0{
-        width:35em;
+        width:80%;
         margin:auto;
          position:absolute; 
-        top:15%;
+        top:30%;
         left:50%;
         transform:translate(-50%,-15%);
         padding:5px
@@ -834,32 +902,24 @@ ul li::before {
     ul {
         font-size:20px
     }
+
 }
 @media (min-width: 993px) and (max-width: 1100px){
     .slide4,.slide2,.slide1,.slide3{
         height:50vh;
        padding:10em
     }
-    .prev, .next {
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        width: auto;
-        padding: 16px;
-        /* margin-top: -22px; */
-        margin:auto 0;
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
-      }
+  
       .sign{
         margin-left:0.5em
     }
+    .slideshow-container{
+        min-height:55vh;
+        background-attachment: scroll;
+        overflow: hidden;
+    }
     .slide0,.slide1,.slide2,.slide3,.slide4{
-        height:50vh
+        /* height:50vh */
     }
     h3{
         font-size:32px;
@@ -869,6 +929,72 @@ ul li::before {
     }
     li{
         font-size:20px
+    }
+    .main-background{
+        position: relative;
+        padding-top:6.5%
+       
+    }
+    .prev{
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        left:5%;
+        width: auto;
+        padding: 5px;
+        /* margin-top: -22px; */
+        margin-right:20px;
+        padding-right:30px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+     .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        right:5%;
+        width: auto;
+        padding: 5px;
+        /* margin-top: -22px; */
+        margin-left:10px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+    
+    .slider-container1,.slider-container2{
+        position:absolute;
+        top:58%;
+        left:50%;
+        transform:translate(-50%,-50%)
+      }
+      .slider-container4{
+          position:absolute;
+          top:55%;
+          left:50%;
+          transform:translate(-50%,-50%)
+        }
+      .slider-container3{
+          position:absolute;
+        top:52%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        width:70%
+      }
+      .slider-container0{
+        width:70%;
+        margin:3% 3%;
+         position:absolute; 
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%)
     }
 }
 /* On smaller screens, decrease text size */
