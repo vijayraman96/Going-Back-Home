@@ -286,7 +286,8 @@ ul li::before {
     }
   
     .sign{
-        text-align: center;
+        text-align: left;
+        margin:0rem 1rem 0rem 0rem
     }
     .main-background{
         position: relative;
@@ -475,12 +476,24 @@ ul li::before {
     border-radius: 0 3px 3px 0;
     user-select: none;
   }
-  ul li{
+  .ul-one{
       line-height: 1.4;
-      font-size:18px
+      font-size:18px;
+      padding-inline-start:10px;
   }
  
   ul .li-one::before {
+    content: "\2022";
+    color: #0099ff;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    /* padding-inline-start:20px; */
+   
+}
+ul .li-two::before{
     content: "\2022";
     color: #0099ff;
     font-size: 25px;
@@ -518,16 +531,16 @@ ul li::before {
     margin:0% 6%
 }
 .text-container h3{
-    font-size:28px
+    font-size:26px
 }
 .ul-two{
     margin:0% 4% 0% 1%;
-    padding-inline-start:20px;
+    padding-inline-start:10px;
     
 }
 .li-two{
     padding:2px 5px;
-    margin-left:5%
+    /* margin-left:5% */
     /* text-align: justify; */
 }
 }
