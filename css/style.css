@@ -394,14 +394,14 @@ ul li::before {
 }
   .slider-container2{
     position:absolute;
-    top:60%;
+    top:55%;
     left:50%;
     transform:translate(-50%,-50%);
     width:18em
   }
   .slider-container3{
     position:relative;
-    top:65%;
+    top:55%;
     left:50%;
     transform:translate(-50%,-50%);
     margin-top:35%;
@@ -432,7 +432,7 @@ ul li::before {
   }
   .slider-container1{
     position:absolute;
-    top:60%;
+    top:55%;
     left:50%;
     transform:translate(-50%,-50%);
     width:18em
