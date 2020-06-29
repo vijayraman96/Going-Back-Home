@@ -23,11 +23,11 @@ h5{
 }
 p{
     font-family: 'nunito','sans-serif';
-    line-height:1.6
+    line-height:1.5
 }
 li{
     font-family: 'nunito','sans-serif';
-    line-height:1.6
+    line-height:1.5
 }
 
 /*********going-back starts here**********/
@@ -75,14 +75,15 @@ li{
     transform:translate(-50%,-50%)
 } 
 .slider-container0 h3{
-    line-height:1.6;
+    line-height:1.2;
     word-spacing:1px;
     color:#135CB0
     /* text-align: justify; */
 }
-/* .slider-container0 h5{
-    text-align: justify;
-} */
+.slider-container0 h5{
+    /* text-align: justify; */
+    line-height:1.5
+}
 .logo-container{
     display:flex;
     justify-content: flex-end;
