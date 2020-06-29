@@ -549,7 +549,7 @@ ul .li-two::before{
     /* text-align: justify; */
 }
 .fa-angle-left, .fa-angle-right{
-    font-size:25px;
+    font-size:35px;
     color:#135CB0
 }
 }
@@ -770,7 +770,7 @@ ul .li-two::before{
         width: 1em;
     }
     .fa-angle-left, .fa-angle-right{
-        font-size:35px;
+        font-size:40px;
         color:#135CB0
     }
 }
