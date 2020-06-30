@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6{
     line-height:1.8
 }
 h3{
-    font-size: 34px;
+    font-size: 28px;
     font-weight:800
 }
 h5{
@@ -32,14 +32,14 @@ li{
 
 /*********going-back starts here**********/
 #going-back{
-    background-image: url('../images/bg.jpg');
+    background-image: url('../images/main-bg.svg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #e8f4ff;
     background-attachment: scroll;
     overflow-y: hidden;
-   min-height:100vh;
+   min-height:110vh;
    margin:auto
 }
 .sign{
@@ -61,15 +61,28 @@ li{
     /* margin:2em auto 0em auto; */
     
 }
-
+.header{
+    margin:3rem 0rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:row
+}
+.header-title{
+    color:#135CB0;
+   font-family: 'nunito','sans-serif'; 
+   font-size:34px;
+   margin-left:25%
+}
 .slideshow-container{
-    min-height:75vh;
+    min-height:80vh;
     background-attachment: scroll;
     overflow: hidden;
+    margin:5rem 0rem 1rem 0rem
 }
 .slider-container0{
     width:65%;
-    margin:3% 3%;
+    margin:1.5% 3%;
      position:absolute; 
     top:50%;
     left:50%;
@@ -86,14 +99,13 @@ li{
     line-height:1.5
 }
 .logo-container{
-    display:flex;
-    justify-content: flex-end;
+  
 }
 #logo{
-    /* width:100%; */
+    
     height:auto;
     max-width:100px;
-    margin:30px 30px 10px 0px
+    margin-right:2.8rem
 }
 .slide0{
     margin:auto;
@@ -280,7 +292,7 @@ ul li::before {
 @media(max-width:374px){
     #going-back{
         position: relative;
-        background-image: url('../images/phone.jpg');
+        background-image: url('../images/phone-bg.svg');
         background-position: top center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -559,7 +571,7 @@ ul .li-two::before{
 @media (min-width:375px) and (max-width:576px){
     #going-back{
         position: relative;
-        background-image: url('../images/phone.jpg');
+        background-image: url('../images/phone-bg.svg');
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -584,27 +596,15 @@ ul .li-two::before{
     .card{
         overflow: hidden;
         height:auto;
-        margin:1em auto 3em auto !important;
+        margin:-2em auto 3em auto !important;
         background-color: transparent;
         border:0px;
         box-shadow: 0 0 0 rgba(0,0,0,0) !important;
      
         border-radius: 0rem;
     }
-    .logo-container{
-        position:relative
-    }
-    #logo{
-        /* width:100%; */
-        height:auto;
-        max-width:70px;
-        margin:2px ;
-        padding-right:0.3em;
-        position: fixed;
-        top:2%;
-        right:3%;
-        z-index:1
-       }
+   
+   
     .image-container3{
         display:flex;
         flex-direction: column-reverse;
@@ -613,7 +613,7 @@ ul .li-two::before{
         /* margin-top:10em */
     }
     .slideshow-container{
-        min-height:90vh;
+        max-height:60vh;
         background-attachment: fixed;
         /* overflow:fixed; */
     }
@@ -624,9 +624,9 @@ ul .li-two::before{
         overflow: auto;
     }
     .slide0{
-        min-height:155vh;
-        background-attachment:scroll;
-        overflow-x:hidden;
+        /* min-height:155vh; */
+        /* background-attachment:scroll; */
+        overflow:hidden;
         margin:10px
     }
     .slide3{
@@ -737,7 +737,7 @@ ul .li-two::before{
       }
       .slider-container3{
         position:relative;
-        top:60%;
+        top:30%;
         left:50%;
         transform:translate(-50%,-50%);
         /* margin-top:50%; */
@@ -754,7 +754,7 @@ ul .li-two::before{
         width:82%;
         margin:auto;
          position:absolute; 
-        top:23%;
+        top:50%;
         left:50%;
         transform:translate(-50%,-15%);
         padding:5px
@@ -776,6 +776,40 @@ ul .li-two::before{
         font-size:40px;
         color:#135CB0
     }
+    .col-12{
+        padding:5px 0px
+    }
+    .header{
+        display:flex;
+        flex-direction: column-reverse;
+        justify-content: start;
+        margin:0.2rem;
+        align-items: flex-start;
+       margin:-5rem -5rem 0rem -5rem;
+       padding:5rem 0rem 0rem 0rem;
+        background-color: #ffffff;
+    }
+    .header-title{
+        color:#135CB0;
+       font-family: 'nunito','sans-serif'; 
+       font-size:22px;
+       padding:2rem 0rem 1rem 0rem;
+       margin-bottom:-12rem;
+       margin-left:22.5%
+    }
+    .logo-container{
+        background-color: #ffffff;
+        padding: 2rem 0rem 0rem 7rem;
+        width:100%
+    }
+    .slideshow-container{
+        padding-top:10rem
+    }
+    .slider-one{
+        min-height:155vh;
+        background-attachment: fixed;
+        overflow:auto
+    }
 }
 @media (min-width: 577px) and (max-width: 764px){
 .slide1,.slide2,.slide3,.slide4{
@@ -783,7 +817,7 @@ ul .li-two::before{
 }
 #going-back{
     position: relative;
-    background-image: url('../images/Phone_BG.jpg');
+    background-image: url('../images/phone-bg.svg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -811,6 +845,18 @@ ul .li-two::before{
     box-shadow: 0 0 0 rgba(0,0,0,0) !important;
  
     border-radius: 0rem;
+}
+.header{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    margin:0.2rem
+}
+.header-title{
+    color:#135CB0;
+   font-family: 'nunito','sans-serif'; 
+   font-size:32px;
+   margin-left:15%
 }
 }
 @media (min-width: 765px) and (max-width: 992px){
@@ -906,7 +952,7 @@ ul .li-two::before{
         width:25em
       }
       .slider-container0{
-        width:80%;
+        width:70%;
         margin:auto;
          position:absolute; 
         top:30%;
@@ -927,14 +973,24 @@ ul .li-two::before{
      
         border-radius: 0rem;
     }
+    .header-title{
+        font-size:34px;
+        margin-left:10%
+    }
     h3{
-        font-size:32px;
+        font-size:28px;
     }
     h5{
-        font-size:26px
+        font-size:24px
     }
     ul {
         font-size:20px
+    }
+    .header-title{
+        color:#135CB0;
+       font-family: 'nunito','sans-serif'; 
+       font-size:34px;
+       margin-left:20%
     }
 
 }
@@ -951,15 +1007,19 @@ ul .li-two::before{
         min-height:55vh;
         background-attachment: scroll;
         overflow: hidden;
+        margin:1rem 0rem 1rem 0rem
     }
     .slide0,.slide1,.slide2,.slide3,.slide4{
         /* height:50vh */
     }
-    h3{
+    h2{
         font-size:32px;
     }
+    h3{
+        font-size:28px;
+    }
     h5{
-        font-size:26px
+        font-size:24px
     }
     li{
         font-size:20px
@@ -1002,6 +1062,12 @@ ul .li-two::before{
         border-radius: 0 3px 3px 0;
         user-select: none;
       }
+      .header{
+        margin:3rem 0rem 1rem 0rem;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     
     .slider-container1,.slider-container2{
         position:absolute;
@@ -1023,12 +1089,18 @@ ul .li-two::before{
         width:70%
       }
       .slider-container0{
-        width:70%;
+        width:65%;
         margin:3% 3%;
          position:absolute; 
         top:50%;
         left:50%;
         transform:translate(-50%,-50%)
+    }
+    .header-title{
+        color:#135CB0;
+       font-family: 'nunito','sans-serif'; 
+       font-size:34px;
+       margin-left:20%
     }
 }
 /* On smaller screens, decrease text size */
