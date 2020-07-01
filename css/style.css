@@ -402,7 +402,7 @@ ul li::before {
 }
   .slider-container2{
     position:absolute;
-    top:60%;
+    top:57%;
     left:50%;
     transform:translate(-50%,-50%);
     width:18em
@@ -435,12 +435,12 @@ ul li::before {
     top:20%;
     left:50%; 
      transform:translate(-50%,0%);
-    width:90%;
+    width:95%;
     padding:0px 5px
   }
   .slider-container1{
     position:absolute;
-    top:60%;
+    top:57%;
     left:50%;
     transform:translate(-50%,-50%);
     width:18em
@@ -512,16 +512,18 @@ ul .li-two::before{
     margin-left: -1em;
 }
 .slider-container0 h3{
-    font-size:26px;
+    font-size:18px;
     line-height:1.6;
     /* text-align: justify; */
     font-weight: bold;
+    color:black;
+    margin:0rem 0.5rem 0rem 0rem
 }
 .slider-container0 h5{
-    font-size:20px;
+    font-size:18px;
     /* text-align: justify; */
-    /* line-height:1.5 */
-    margin-right:1em
+    line-height:1.6;
+    margin-right:2em
 }
 .slider-container0 ul li{
     font-size:16px;
@@ -548,6 +550,9 @@ ul .li-two::before{
     padding-inline-start:10px;
     
 }
+.ul-one {
+    margin-left: 2%;
+}
 .li-two{
     padding:2px 2px;
     /* margin-left:5% */
@@ -571,13 +576,14 @@ ul .li-two::before{
     color:#135CB0;
    font-family: 'nunito','sans-serif'; 
    font-size:22px;
+   font-weight:bolder;
    padding:2rem 0rem 1rem 0rem;
-   margin-bottom:-12rem;
-   margin-left:22.5%
+   margin-bottom:-10rem;
+   margin-left:21.5%
 }
 .logo-container{
     background-color: #ffffff;
-    padding: 2rem 0rem 0rem 7rem;
+    padding: 2rem 0rem 0rem 6rem;
     width:100%
 }
 .slideshow-container{
@@ -654,12 +660,12 @@ ul .li-two::before{
         margin:10px
     }
     .slider-container0 h3{
-        font-size:30px;
+        font-size:22px;
         line-height:1.6;
         /* text-align: justify; */
     }
     .slider-container0 h5{
-        font-size:24px;
+        font-size:22px;
         /* text-align:justify */
         /* line-height:1.5 */
         margin-right:0.5
@@ -678,7 +684,7 @@ ul .li-two::before{
     }
     .slider-container0 ul li{
         font-size:16px;
-        text-align: justify;
+        /* text-align: justify; */
     }
     .prev{
         cursor: pointer;
@@ -720,8 +726,8 @@ ul .li-two::before{
       .slider-container0 ul li{
         font-size:18px;
         /* text-align: justify; */
-        line-height:1.4;
-        margin-right:2em
+        line-height:1.6;
+        /* margin-right:2em */
     }
     .ul-two{
         margin:0% 4% 0% 1%
@@ -748,14 +754,14 @@ ul .li-two::before{
       }
       .slider-container2,.slider-container4{
         position:absolute;
-        top:60%;
+        top:50%;
         left:50%;
         transform:translate(-50%,-50%);
         width:18em
       }
       .slider-container3{
         position:relative;
-        top:35%;
+        top:40%;
         left:50%;
         transform:translate(-50%,-50%);
         /* margin-top:50%; */
@@ -763,16 +769,16 @@ ul .li-two::before{
       }
       .slider-container1{
         position:absolute;
-        top:56%;
+        top:50%;
         left:50%;
         transform:translate(-50%,-50%);
         width:18em
       }
       .slider-container0{
-        width:82%;
+        width:84%;
         margin:auto;
          position:absolute; 
-        top:40%;
+        top:20%;
         left:50%;
         transform:translate(-50%,-15%);
         padding:5px;
@@ -811,14 +817,17 @@ ul .li-two::before{
     .header-title{
         color:#135CB0;
        font-family: 'nunito','sans-serif'; 
-       font-size:22px;
+       font-size:24px;
        padding:2rem 0rem 1rem 0rem;
        margin-bottom:-12rem;
-       margin-left:22.5%
+       margin-left:20%
+    }
+    .ul-one {
+        margin-left: 0%;
     }
     .logo-container{
         background-color: #ffffff;
-        padding: 2rem 0rem 0rem 7rem;
+        padding: 2rem 0rem 0rem 6rem;
         width:100%
     }
     .slideshow-container{
