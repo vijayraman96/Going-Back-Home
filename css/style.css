@@ -402,17 +402,17 @@ ul li::before {
 }
   .slider-container2{
     position:absolute;
-    top:55%;
+    top:58%;
     left:50%;
     transform:translate(-50%,-50%);
     width:18em
   }
   .slider-container3{
     position:relative;
-    top:17%;
+    top:30%;
     left:50%;
     transform:translate(-50%,-50%);
-    margin-top:35%;
+    margin-top:40%;
     width:17.4em;
     padding-bottom:2em
   }
@@ -440,7 +440,7 @@ ul li::before {
   }
   .slider-container1{
     position:absolute;
-    top:55%;
+    top:58%;
     left:50%;
     transform:translate(-50%,-50%);
     width:18em
@@ -581,7 +581,7 @@ ul .li-two::before{
     width:100%
 }
 .slideshow-container{
-    padding-top:10rem
+    padding-top:2rem
 }
 }
 @media (min-width:375px) and (max-width:576px){
