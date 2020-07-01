@@ -409,7 +409,7 @@ ul li::before {
   }
   .slider-container3{
     position:relative;
-    top:30%;
+    top:15%;
     left:50%;
     transform:translate(-50%,-50%);
     margin-top:35%;
@@ -418,7 +418,7 @@ ul li::before {
   }
   .slider-container4{
     position:absolute;
-    top:58%;
+    top:60%;
     left:50%;
     transform:translate(-50%,-50%);
     width:18em
@@ -629,9 +629,9 @@ ul .li-two::before{
         /* margin-top:10em */
     }
     .slideshow-container{
-        max-height:60vh;
-        background-attachment: fixed;
-        /* overflow:fixed; */
+        max-height:80vh;
+        background-attachment: scroll;
+        overflow:auto;
     }
     .slide4,.slide2,.slide1{
        height:80vh;
@@ -640,11 +640,12 @@ ul .li-two::before{
         overflow: auto;
     }
     .slide0{
-        /* min-height:155vh; */
-        /* background-attachment:scroll; */
-        overflow:hidden;
+        min-height:155vh;
+        background-attachment:scroll;
+        overflow:scroll;
         margin:10px
     }
+   
     .slide3{
         height:100vh;
         background-attachment:scroll;
@@ -773,7 +774,8 @@ ul .li-two::before{
         top:50%;
         left:50%;
         transform:translate(-50%,-15%);
-        padding:5px
+        padding:5px;
+        
     } 
     .text-container h3{
         font-size:30px;
@@ -822,9 +824,12 @@ ul .li-two::before{
         padding-top:10rem
     }
     .slider-one{
-        min-height:155vh;
-        background-attachment: fixed;
+        max-height:100%;
+        background-attachment: scroll;
         overflow:auto
+    }
+    .slider-two{
+        height:150vh
     }
 }
 @media (min-width: 577px) and (max-width: 764px){
