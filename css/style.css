@@ -666,6 +666,7 @@ ul .li-two::before{
     .slider-container0 h3{
         font-size:22px;
         line-height:1.6;
+        color:#000000
         /* text-align: justify; */
     }
     .slider-container0 h5{
@@ -734,7 +735,7 @@ ul .li-two::before{
         /* margin-right:2em */
     }
     .ul-two{
-        margin:0% 4% 0% 1%
+        margin:0% 45% 0% 0%
     }
     .li-two{
         padding:2px 5px;
@@ -827,7 +828,8 @@ ul .li-two::before{
        margin-left:20%
     }
     .ul-one {
-        margin-left: 0%;
+        margin-left: 5%;
+    padding-inline-start: 1px;
     }
     .logo-container{
         background-color: #ffffff;
