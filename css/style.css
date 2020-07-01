@@ -362,7 +362,7 @@ ul li::before {
 
    .slide3{
        /* padding:5px 10px; */
-      height:115vh;
+      height:100vh;
        background-attachment:scroll;
        overflow:scroll;
    }
@@ -396,7 +396,7 @@ ul li::before {
     margin-left: -1em;
   }
   .slideshow-container{
-    max-height:75vh;
+    height:auto;
     background-attachment: fixed;
     overflow:auto;
 }
@@ -432,7 +432,7 @@ ul li::before {
 }
   .slider-container0{
     position:absolute;
-    top:25%;
+    top:17%;
     left:50%; 
      transform:translate(-50%,0%);
     width:16.5em;
@@ -582,7 +582,7 @@ ul .li-two::before{
 }
 .slideshow-container{
     padding-top:2rem;
-    position: relative;
+    /* position: relative; */
 }
 }
 @media (min-width:375px) and (max-width:576px){
@@ -630,7 +630,7 @@ ul .li-two::before{
         /* margin-top:10em */
     }
     .slideshow-container{
-        max-height:80vh;
+        max-height:auto;
         background-attachment: scroll;
         overflow:auto;
     }
@@ -831,7 +831,8 @@ ul .li-two::before{
         overflow:auto
     }
     .slider-two{
-        height:150vh
+        height:100%;
+        overflow:hide
     }
 }
 @media (min-width: 577px) and (max-width: 764px){
