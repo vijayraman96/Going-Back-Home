@@ -322,7 +322,7 @@ ul li::before {
         overflow: hidden;
         height:auto;
         overflow-x: hidden;
-        margin: -2em auto 2em auto;
+        margin: -2em auto 0em auto;
         background-color:transparent;
         border:0px;
        
@@ -355,9 +355,9 @@ ul li::before {
         max-width:1500px;
         margin:30px
     }
-    .card-container{
+    /* .card-container{
         margin-bottom:2em
-    }
+    } */
     
 
    .slide3{
@@ -399,6 +399,7 @@ ul li::before {
     height:auto;
     background-attachment: fixed;
     overflow:auto;
+    margin:5rem 0rem 0rem 0rem
 }
   .slider-container2{
     position:absolute;
@@ -619,7 +620,7 @@ ul .li-two::before{
     .card{
         overflow: hidden;
         height:auto;
-        margin:-2em auto 3em auto !important;
+        margin:-2em auto 0em auto !important;
         background-color: transparent;
         border:0px;
         box-shadow: 0 0 0 rgba(0,0,0,0) !important;
@@ -639,10 +640,13 @@ ul .li-two::before{
         max-height:auto;
         background-attachment: scroll;
         overflow:auto;
+        padding-top:2rem;
+        position: relative;
+        margin:5rem 0rem 0rem 0rem
     }
     .slide4,.slide2,.slide1{
        height:80vh;
-        margin:10px;
+        margin:10px 10px 0px 10px;
         background-attachment: fixed;
         overflow: auto;
     }
@@ -830,10 +834,7 @@ ul .li-two::before{
         padding: 2rem 0rem 0rem 6rem;
         width:100%
     }
-    .slideshow-container{
-        padding-top:2rem;
-        position: relative;
-    }
+    
     .slider-one{
         max-height:100%;
         background-attachment: scroll;
