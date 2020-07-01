@@ -322,7 +322,7 @@ ul li::before {
         overflow: hidden;
         height:auto;
         overflow-x: hidden;
-        margin: 2em auto 2em auto;
+        margin: -2em auto 2em auto;
         background-color:transparent;
         border:0px;
        
@@ -383,19 +383,9 @@ ul li::before {
     border-radius: 0 3px 3px 0;
     user-select: none;
   }
-  #logo{
-    /* width:100%; */
-    height:auto;
-    max-width:60px;
-    margin:2px;
-    padding-right:0.3em;
-    position: fixed;
-    top:2%;
-    right:3%;
-    z-index:1
-
-    
-   }
+ .col-12{
+     padding:0px 0px
+ }
    ul li::before {
     content: "\2022";  
     color: #135CB0; 
@@ -406,7 +396,7 @@ ul li::before {
     margin-left: -1em;
   }
   .slideshow-container{
-    min-height:75vh;
+    max-height:75vh;
     background-attachment: fixed;
     overflow:auto;
 }
@@ -419,7 +409,7 @@ ul li::before {
   }
   .slider-container3{
     position:relative;
-    top:45%;
+    top:30%;
     left:50%;
     transform:translate(-50%,-50%);
     margin-top:35%;
@@ -435,14 +425,14 @@ ul li::before {
   }
   .slide0{
     
-    min-height:172vh;
+    height:172vh;
     background-attachment:scroll;
     overflow:scroll;
 
 }
   .slider-container0{
     position:absolute;
-    top:5%;
+    top:40%;
     left:50%; 
      transform:translate(-50%,0%);
     width:16.5em;
@@ -567,6 +557,32 @@ ul .li-two::before{
     font-size:35px;
     color:#135CB0
 }
+.header{
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+ 
+    align-items: flex-start;
+   margin:-5rem -5rem 0rem -5rem;
+   padding:5rem 0rem 0rem 0rem;
+    background-color: #ffffff;
+}
+.header-title{
+    color:#135CB0;
+   font-family: 'nunito','sans-serif'; 
+   font-size:22px;
+   padding:2rem 0rem 1rem 0rem;
+   margin-bottom:-12rem;
+   margin-left:22.5%
+}
+.logo-container{
+    background-color: #ffffff;
+    padding: 2rem 0rem 0rem 7rem;
+    width:100%
+}
+.slideshow-container{
+    padding-top:10rem
+}
 }
 @media (min-width:375px) and (max-width:576px){
     #going-back{
@@ -603,7 +619,7 @@ ul .li-two::before{
      
         border-radius: 0rem;
     }
-   
+  
    
     .image-container3{
         display:flex;
@@ -737,7 +753,7 @@ ul .li-two::before{
       }
       .slider-container3{
         position:relative;
-        top:30%;
+        top:35%;
         left:50%;
         transform:translate(-50%,-50%);
         /* margin-top:50%; */
