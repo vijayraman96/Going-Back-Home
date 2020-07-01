@@ -402,14 +402,14 @@ ul li::before {
 }
   .slider-container2{
     position:absolute;
-    top:55%;
+    top:60%;
     left:50%;
     transform:translate(-50%,-50%);
     width:18em
   }
   .slider-container3{
     position:relative;
-    top:28%;
+    top:32%;
     left:50%;
     transform:translate(-50%,-50%);
     margin-top:40%;
@@ -418,7 +418,7 @@ ul li::before {
   }
   .slider-container4{
     position:absolute;
-    top:55%;
+    top:60%;
     left:50%;
     transform:translate(-50%,-50%);
     width:18em
@@ -432,15 +432,15 @@ ul li::before {
 }
   .slider-container0{
     position:absolute;
-    top:17%;
+    top:20%;
     left:50%; 
      transform:translate(-50%,0%);
-    width:16.5em;
+    width:90%;
     padding:0px 5px
   }
   .slider-container1{
     position:absolute;
-    top:55%;
+    top:60%;
     left:50%;
     transform:translate(-50%,-50%);
     width:18em
@@ -454,7 +454,7 @@ ul li::before {
   .prev{
     cursor: pointer;
     position: fixed;
-    top: 45%;
+    top: 48%;
     left:2%;
     width: auto;
     padding: 5px;
@@ -471,7 +471,7 @@ ul li::before {
  .next {
     cursor: pointer;
     position: fixed;
-    top: 45%;
+    top: 48%;
     right:0.5%;
     width: auto;
     padding: 5px;
