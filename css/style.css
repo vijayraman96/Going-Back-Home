@@ -402,14 +402,14 @@ ul li::before {
 }
   .slider-container2{
     position:absolute;
-    top:57%;
+    top:54%;
     left:50%;
     transform:translate(-50%,-50%);
     width:18em
   }
   .slider-container3{
     position:relative;
-    top:32%;
+    top:30%;
     left:50%;
     transform:translate(-50%,-50%);
     margin-top:40%;
@@ -440,7 +440,7 @@ ul li::before {
   }
   .slider-container1{
     position:absolute;
-    top:57%;
+    top:54%;
     left:50%;
     transform:translate(-50%,-50%);
     width:18em
@@ -579,7 +579,7 @@ ul .li-two::before{
    font-weight:bolder;
    padding:2rem 0rem 1rem 0rem;
    margin-bottom:-10rem;
-   margin-left:21.5%
+   margin-left:21%
 }
 .logo-container{
     background-color: #ffffff;
