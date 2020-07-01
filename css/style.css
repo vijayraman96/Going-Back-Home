@@ -513,7 +513,7 @@ ul .li-two::before{
     margin-left: -1em;
 }
 .slider-container0 h3{
-    font-size:18px;
+    font-size:1.4rem;
     line-height:1.6;
     /* text-align: justify; */
     font-weight: bold;
@@ -576,7 +576,7 @@ ul .li-two::before{
 .header-title{
     color:#135CB0;
    font-family: 'nunito','sans-serif'; 
-   font-size:20px;
+   font-size:1.35rem;
    font-weight:bolder;
    padding:2rem 0rem 1rem 0rem;
    margin-bottom:-10rem;
